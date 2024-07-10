@@ -10,7 +10,12 @@
 *{
     margin: 0;
     padding: 0;
-    align-items: center;
+
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 .hero-section{
@@ -50,6 +55,7 @@
     font-size: 48px;
     left: -430px;
     font-weight: 800;
+    color: #0D1321;
 }
 
 .about-header .about-h2{
@@ -66,13 +72,12 @@
     height: 52px;
     width: 882px;
     height: 136px;
-    width: 808px;
     top: 170px;
     left: -360px;
     right:auto;
     color: #0D1321;
     size: 70px;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .about-header button{
@@ -83,7 +88,7 @@
     height: 65px;
     color:#FFFFFF;
     background-color:  #0D1321;
-    border-radius: 15px;
+    border-radius: 10px;
     left: -100px;
     font-size: 20px;
 }
@@ -91,58 +96,240 @@
 /* why web  Development started */
 /* why web  Development started */
 
-.why-web{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.why-web .why-web-header{
-    width: 852px;
-    height: 37px;
-}
-
-.why-web h1{
-    position: absolute;
-    color: #0D1321;
-    font-size:32px;
-    right: auto;
-    margin: 170px;
-    left: 600px;
-    text-align: center;
+.why-web-main{
+    /* position: relative; */
+    border: 1px solid black;
+    width: 946px;
+    height: 1233px;
+    margin: auto;
+    }
     
-
-}
-
-.why-web p{
+    
+    
+    
+    .why-web-header{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .why-web-header >h2{
+        position:absolute;
+        size: 32px;
+        font-weight: 900;
+        text-align: center;
+        color: #0D0D21;
+        padding-top: 110px;
+        padding-left: 400px;
+        
+    }
+    
+.why-web-header >p{
     position: absolute;
-    opacity: 0.5;
-    font-size: 16 px;
-    top: 80px;
-    right: auto;
-    margin: 170px;
-    left: 350px;
-}
-
-.about-header .br-h2{
-    position: absolute;
-    opacity: 0.5;
-    font-size: 16 px;
-    top: 80px;
-    right: auto;
-    margin: 170px;
-    left: 350px;
+    font-size: 18px;
+    opacity: 0.7;
     text-align: center;
+    color: #0D0D21;
+    padding-top: 160px;
+    padding-left: 230px;
+    margin: auto;
 }
-.why-web .p2{
+    
+    /* 1st leyar */
+    
+    .why-web-leyar-1{
+        position: relative;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid black; */
+        width: 850px;
+        height: 240px;
+        margin: auto;
+        /* column-gap: 48px; */
+        /* border: none; */
+        padding-top: 280px;
+       
+    }
+    
+    .why-web-leyar-1-title{
+        position: absolute;
+        font-size: 24px;
+        font-weight: 600px;
+        color:#0D0D21 ;
+        opacity: 0.7;
+        top: 250px;
+        left: 3px;
+    }
+    
+    .why-web-leyar-1 >img{
+        position: absolute;
+        width: 274.17px;
+        height: 240px;
+        left: 550PX;
+        top: 300PX;
+
+    }
+    
+    .why-web-leyar-1-description{
+        position: absolute;
+        padding-left: 45px;
+        color: #0D1321;
+        opacity: 0.7;
+        font-size: 16px;
+        padding-left: 00px;
+        padding-right: 200px;
+        top: 325px;
+    }
+    
+    .why-web-leyar-1 >button{
+        position: absolute;
+        width: 171px;
+        height: 47px;
+        font-weight: 131px;
+        right: 677px;
+        top: 420px;
+        font-size: 20px;
+        background-color: rgb(255, 255, 255);
+        opacity: 0.7;
+        font-weight: 600;
+        
+    }
+
+    /* Leyar 2 section started */
+
+    .why-web-leyar-2{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        width: 850px;
+        height: 240px;
+        margin: auto;
+        column-gap: 48px;
+        border: none;
+        padding-top: 100px;
+       
+    }
+    
+    .why-web-leyar-2 >h4{
     position: absolute;
-    opacity: 0.5;
+    font-size: 24px;
+    font-weight: bold;
+    color:#0D0D21 ;
+    opacity: 0.7;
+    padding-bottom: 130px;
+    padding-left: 300PX;
+    
+    }
+    
+    .why-web-leyar-2 > .img2{
+        width: 274.17px;
+        height: 240px;
+        padding-right: 500px;
+        padding-top: 30px;
+    }
+    
+    .why-web-leyar-2 >p{
+        position: absolute;
+        left:300px;
+        color: #0D1321;
+        opacity: 0.7;
+        padding-top: 30px;
+        padding-left: 0PX;
+
+    }
+    
+    .why-web-leyar-2 >button{
+        position: absolute;
+        width: 171px;
+        height: 47px;
+        font-weight: 131px;
+        right:380px;
+        top: 280px;
+        font-size: 20px;
+        background-color: rgb(255, 255, 255);
+        opacity: 0.7;
+        font-weight: 600;
+        
+    }
+
+
+     /* Leyar 3 section started */
+
+     .why-web-leyar-3{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 850px;
+        height: 240px;
+        margin: auto;
+        column-gap: 48px;
+        padding-top: 100px;
+       
+    }
+    
+    .why-web-leyar-3 >h4{
+        position: absolute;
+        font-size: 24px;
+        font-weight: bold;
+        color:#0D0D21 ;
+        opacity: 0.7;
+        padding-bottom: 140px;
+        padding-right: 455px;
+    }
+    
+    .why-web-leyar-3 >img{
+        width: 274.17px;
+        height: 240px;
+    }
+    
+    .why-web-leyar-3 >p{
+        padding-left: 45px;
+        color: #0D1321;
+        opacity: 0.7;
+    }
+    
+    .why-web-leyar-3 >button{
+        position: absolute;
+        width: 171px;
+        height: 47px;
+        font-weight: 131px;
+        right: 634px;
+        top: 270px;
+        font-size: 20px;
+        background-color: rgb(255, 255, 255);
+        opacity: 0.7;
+        font-weight: 600;
+        
+    }
+
+
+    /* <!-- My Inspiration section started--> */
+
+.my-inspiration-title{
+    font-size: 32px;
+    font-weight: 800px;
+    text-align: center;
+    margin-top: 80px;
+    color:#0D1321 ;
+}
+
+.my-inspiration-description{
     font-size: 16px;
+    color: #0D0D21;
+    opacity: 0.7;
     text-align: center;
-    font-weight:200;
-    top: 110px;
-    right: auto;
-    margin: 170px;
-    left: 400px
+    margin-top: 24px;
+}
+
+.iframe-video{
+    text-align: center;
+    margin-top: 48px;
+    border:none;
+    border-radius:0px;
 }
