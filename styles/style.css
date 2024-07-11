@@ -96,7 +96,7 @@ main{
 /* why web  Development started */
 /* why web  Development started */
 
-}
+
 
 .why-web-main{
     /* position: relative; */
@@ -105,8 +105,6 @@ main{
     height: 1233px;
     margin: auto;
     }
-    
-    
     
     
     .why-web-header{
@@ -126,7 +124,7 @@ main{
         
     }
     
-.why-web-header >p{
+    .why-web-header >p{
     position: absolute;
     font-size: 18px;
     opacity: 0.7;
@@ -261,8 +259,8 @@ main{
      /* Leyar 3 section started */
 
      .why-web-leyar-3{
-        position: relative;
-        display: flex;
+        /* position: relative; */
+        disply:block;
         align-items: center;
         justify-content: center;
         width: 850px;
@@ -332,4 +330,95 @@ main{
     margin-top: 48px;
     border:none;
     border-radius:0px;
+}
+
+
+/* <!-- My Current Target Section Started--> */
+
+.my-current-target-title-des{
+    display:blok ;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.my-current-target-title{
+    font-size: 32px;
+    color:#0D1321;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    font-weight: 800;
+}
+
+.my-current-target-description{
+    color:#0D1321;
+    text-align: center;
+    justify-content: center;
+    margin-top: 24px;
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+
+        /* HTML CSS AND JAVA */
+
+.my-target{
+    display:block;
+    gap: 24px;
+    max-width: 1360px;
+    align-items: center;
+    border: 1px solid rgba(255, 76, 30, 0.05);
+}
+
+.skills{
+    /* padding: 40px; */
+    border-radius: 16px;
+    gap: 24px;
+    border: none;
+}
+    
+
+
+.skill-description{
+    color: #0D1321;
+    font-size: 16px;
+    opacity: 70%;
+}
+
+.learn-more{
+    color: #0D1321;
+}
+
+.feedback{
+    position:re;
+}
+.limaige{
+    position: absolute;
+}
+
+.limaige .last-info{
+    position: absolute;
+    align-items: center;
+    justify-content: right;
+    padding-bottom: 1333px;
+}
+
+
+
+/* footer */
+
+
+.last-footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    margin: 32px 150px 32px 150px;
+    max-width: 1440px;
+    paegin-top: 900px;
+}
+.last-footer h4{
+    font-size: 20px;
+    font-weight: 500;
 }
